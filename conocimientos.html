@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conocimientos</title>
+    <style>
+        .body{
+            background-color: antiquewhite;
+            margin: 100px;
+        }
+        
+        .contenedor{
+            width: 400px;
+            height: 500px;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            background-color: rgb(255, 255, 255);
+            padding-left: 20px;
+            border-radius: 20px;
+        }
+        
+        .contenedor h1{
+            font-size: 50px;
+            font-family: sans-serif;
+        }
+        
+        .contenedor li{
+            font-size: 20px;
+        }
+        @media screen and (max-width: 600px) {
+            body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        }   
+    </style>
+</head>
+
+<body class="body">
+
+    <div class="contenedor">
+        <h1>Conocimientos</h1>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Ingles B2</li>
+            <li>Frances A2</li>
+            <li>Phyton</li>
+    </div>
+</body>
+</html>
